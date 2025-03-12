@@ -1,0 +1,87 @@
+.address {
+  padding-bottom: 10%;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 90%;
+}
+
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-content {
+  flex: 1;
+}
+
+.profile1 h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.profile1 {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.profile p {
+  color: #555;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.profile-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.subscribers {
+  color: #f62682;
+}
+
+.share-btn {
+  background-color: #f62682;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.share-btn i {
+  font-size: 14px;
+}
+.menu {
+  margin-top: 5%;
+  display: flex;
+}
+.menu div {
+  width: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  padding: 0px 5px 0px 5px;
+}
+.menu .Sa {
+  background-color: #f7d4e0;
+  color: #ff4081;
+  font-weight: bold;
+}

@@ -1,0 +1,87 @@
+.footer {
+  background-color: #1d2228;
+  border-radius: 7px;
+  display: flex;
+  color: white;
+  height: auto;
+  width: 100%;
+  margin-top: 5%;
+  padding: 2%;
+}
+.aboutus-logo {
+  width: 60%;
+  height: 100%;
+  margin-left: 5%;
+}
+
+.about-us {
+  text-align: left;
+}
+.form {
+  margin-bottom: 2%;
+}
+
+.form input {
+  height: 30px;
+  width: 400px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-color: white;
+}
+
+.form button {
+  background-color: #f62682;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  width: 50px;
+  margin-left: 4%;
+  border: none;
+  outline: none;
+}
+.logo {
+  margin-top: 10%;
+}
+.logo p {
+  font-size: small;
+  margin-left: 5%;
+  color: white;
+}
+
+.learnmore-shop {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer span {
+  margin-top: 5%;
+}
+.title {
+  font-weight: bold;
+}
+.learn-more {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.shop {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 10%;
+}
+
+.recipes {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}

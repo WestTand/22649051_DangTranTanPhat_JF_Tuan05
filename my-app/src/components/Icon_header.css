@@ -1,0 +1,27 @@
+p{
+    font-size: 16px;
+    color: pink;
+}
+img{
+    
+        
+    
+    font-size: 16px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-top: 12px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+}
+input {
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding-top: 15px;
+    margin: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+}

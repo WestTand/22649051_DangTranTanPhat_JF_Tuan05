@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    color: #888;
+  }
+  
+  .menu-item {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    color: #f62682;
+  }
+  
