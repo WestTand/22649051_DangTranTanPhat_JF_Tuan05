@@ -9,26 +9,26 @@ export default function Profile() {
   return (
     <div className="profile1">
       {/* Avatar */}
-      <div className="address">
+      <div className="address flex">
         Home
-        <span className="subscribers">
+        <span className="subscribers flex">
           <img src={Arrowforward} alt="" /> Your Recipe Box
         </span>
       </div>
 
       <h1>{profile.name}'s Recipe Box</h1>
-      <div className="profile">
+      <div className="profile flex items-start gap-[20px] p-[20px] w-full max-w-[90%]">
         <img
           src={profile.avatar}
           alt={profile.name}
-          className="profile-avatar"
+          className="profile-avatar w-[150px] h-[150px] rounded-[50%] object-cover"
         />
         {/* Thông tin chi tiết */}
-        <div className="profile-content">
+        <div className="profile-content flex-[1]">
           <p>{profile.info}</p>
 
           {/* Thông tin đăng ký & Nút chia sẻ */}
-          <div className="profile-actions">
+          <div className="profile-actions ">
             <span className="subscribers">
               {profile.totalSubscribe} Subscribes
             </span>

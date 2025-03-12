@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .header {
   display: flex;
   align-items: center;
@@ -29,13 +30,14 @@
   background-color: #f7f7f7;
   padding: 8px 15px;
   border-radius: 25px;
-  width: 300px;
+  width: 100%;
 }
 
 .search-bar input {
   border: none;
   outline: none;
   background: transparent;
+  /* Vo hinh */
   margin-left: 10px;
   width: 100%;
 }
@@ -45,7 +47,7 @@
 }
 
 .user-actions {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 15px;
 }
@@ -57,7 +59,7 @@
   padding: 8px 15px;
   border-radius: 20px;
   cursor: pointer;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 5px;
 }

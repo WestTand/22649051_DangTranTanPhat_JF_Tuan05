@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .address {
   padding-bottom: 10%;
   text-align: left;
@@ -5,23 +6,23 @@
 }
 
 .profile {
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
   gap: 20px;
   padding: 20px;
   width: 100%;
-  max-width: 90%;
+  max-width: 90%; */
 }
 
 .profile-avatar {
-  width: 150px;
+  /* width: 150px;
   height: 150px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: cover; */
 }
 
 .profile-content {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .profile1 h1 {
